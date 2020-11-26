@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS logs;
+CREATE TABLE logs (
+	  id INT AUTO_INCREMENT  PRIMARY KEY,
+	  message VARCHAR(250) NOT NULL,
+	  log_type_id INT(11) NOT NULL,
+	  reg_date DATETIME DEFAULT NULL
+	  
+);
